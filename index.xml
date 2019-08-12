@@ -6,10 +6,19 @@
     <description>Recent content on Tri Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Aug 2019 11:23:41 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 21:16:07 +0200</lastBuildDate>
     
 	<atom:link href="https://nickelium.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RayTracer</title>
+      <link>https://nickelium.github.io/portfolio/raytracer/</link>
+      <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/portfolio/raytracer/</guid>
+      <description>This is a simple a realtime software renderer that emulates the OpenGL graphics pipeline. It utilizes few dependencies and is built mostly from scratch and written in C++98/C++11. The goal of this project is to build a renderer without the help of any Graphics API such as DirectX, OpenGL or Vulkan. Therefore it doesn&amp;rsquo;t utilize any hardware acceleration provided by the GPU.</description>
+    </item>
     
     <item>
       <title>Hello</title>
@@ -20,7 +29,35 @@
       <description>Hello World ! Welcome to my personal website/portfolio page.
 This site serves as a place to show my personal projects and also to share some of my thoughts in the form of a blog post.
 Most of the content that are about to come will be presumably related to Programming (C/C++, &amp;hellip;) and Rendering (Rasterization, Raytracing, &amp;hellip;).
-This is the very first post on this website to verify it&amp;rsquo;s full functionality and correctness.</description>
+This is the very first post on this website and is intended to verify it&amp;rsquo;s full functionality and correctness.</description>
+    </item>
+    
+    <item>
+      <title>Graphics Engine</title>
+      <link>https://nickelium.github.io/portfolio/graphics_engine/</link>
+      <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/portfolio/graphics_engine/</guid>
+      <description>This is a simple a realtime software renderer that emulates the OpenGL graphics pipeline. It utilizes few dependencies and is built mostly from scratch and written in C++98/C++11. The goal of this project is to build a renderer without the help of any Graphics API such as DirectX, OpenGL or Vulkan. Therefore it doesn&amp;rsquo;t utilize any hardware acceleration provided by the GPU.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nickelium.github.io/about/</link>
+      <pubDate>Tue, 30 Jul 2019 12:58:05 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/about/</guid>
+      <description>Hi! I&amp;rsquo;m Tri Tran an upcoming college graduate from Howest, Belgium right now living in Brussels, Belgium. Currently I&amp;rsquo;m looking for an internship for the period starting at February 2020 to June 2020.
+Previously I graduated from KULeuven, Belgium in June 2017 with a Bachelor of Science in Informatics. Near the period of graduation, my interest shifted from general Computer Science to Game Development in a general context. Therefore, I pursued my education at University College Howest, Belgium.</description>
+    </item>
+    
+    <item>
+      <title>Rasterizer</title>
+      <link>https://nickelium.github.io/portfolio/rasterizer/</link>
+      <pubDate>Fri, 12 Jul 2019 12:32:46 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/portfolio/rasterizer/</guid>
+      <description>This is a simple a realtime software renderer that emulates the OpenGL graphics pipeline. It utilizes few dependencies and is built mostly from scratch and written in C++98/C++11. The goal of this project is to build a renderer without the help of any Graphics API such as DirectX, OpenGL or Vulkan. Therefore it doesn&amp;rsquo;t utilize any hardware acceleration provided by the GPU.</description>
     </item>
     
   </channel>

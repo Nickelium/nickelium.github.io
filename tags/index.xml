@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Tri Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Aug 2019 11:23:41 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 21:16:07 +0200</lastBuildDate>
     
 	<atom:link href="https://nickelium.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C/C&#43;&#43;</title>
+      <link>https://nickelium.github.io/tags/c-c&#43;&#43;/</link>
+      <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/c-c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphics</title>
+      <link>https://nickelium.github.io/tags/graphics/</link>
+      <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/graphics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hello</title>
@@ -17,6 +35,33 @@
       <pubDate>Mon, 12 Aug 2019 11:23:41 +0200</pubDate>
       
       <guid>https://nickelium.github.io/tags/hello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rendering</title>
+      <link>https://nickelium.github.io/tags/rendering/</link>
+      <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Rendering</title>
+      <link>https://nickelium.github.io/tags/software-rendering/</link>
+      <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/software-rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://nickelium.github.io/tags/welcome/</link>
+      <pubDate>Mon, 12 Aug 2019 11:23:41 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/welcome/</guid>
       <description></description>
     </item>
     
