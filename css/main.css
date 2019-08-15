@@ -10,8 +10,8 @@
 {
     width: device-width;
 }
+
 a,
-a:hover,
 a:visited,
 a:link
 {
@@ -19,7 +19,6 @@ a:link
 
     color: #526d7a;
 }
-
 
 body
 {
@@ -195,6 +194,7 @@ h3.intro
 
     color: #966 !important;
 }
+
 .meta
 {
     font-family: 'Roboto', sans-serif;
@@ -267,4 +267,8 @@ pre > code {
     word-break: initial;
 }
 
+a:hover 
+{
+  color: #cc1010;
+}
 
