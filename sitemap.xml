@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://nickelium.github.io/post/hello/</loc>
-    <lastmod>2019-08-12T11:23:41+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nickelium.github.io/portfolio/graphics_engine/</loc>
     <lastmod>2019-08-05T21:16:07+02:00</lastmod>
   </url>
@@ -28,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://nickelium.github.io/post/hello/</loc>
+    <lastmod>2019-07-05T11:23:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nickelium.github.io/tags/c-c&#43;&#43;/</loc>
     <lastmod>2019-08-12T21:16:07+02:00</lastmod>
     <priority>0</priority>
@@ -39,20 +39,50 @@
   </url>
   
   <url>
+    <loc>https://nickelium.github.io/tags/d3d11/</loc>
+    <lastmod>2019-08-05T21:16:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nickelium.github.io/tags/game-engine/</loc>
+    <lastmod>2019-08-05T21:16:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nickelium.github.io/tags/graphics/</loc>
     <lastmod>2019-08-12T21:16:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://nickelium.github.io/tags/graphics-api/</loc>
+    <lastmod>2019-08-05T21:16:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nickelium.github.io/tags/hardware-rendering/</loc>
+    <lastmod>2019-08-05T21:16:07+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nickelium.github.io/tags/hello/</loc>
-    <lastmod>2019-08-12T11:23:41+02:00</lastmod>
+    <lastmod>2019-07-05T11:23:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nickelium.github.io/categories/hello/</loc>
-    <lastmod>2019-08-12T11:23:41+02:00</lastmod>
+    <lastmod>2019-07-05T11:23:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nickelium.github.io/tags/opengl/</loc>
+    <lastmod>2019-08-05T21:16:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,7 +94,13 @@
   
   <url>
     <loc>https://nickelium.github.io/post/</loc>
-    <lastmod>2019-08-12T11:23:41+02:00</lastmod>
+    <lastmod>2019-07-05T11:23:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nickelium.github.io/tags/raytracer/</loc>
+    <lastmod>2019-08-12T21:16:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,7 +130,7 @@
   
   <url>
     <loc>https://nickelium.github.io/tags/welcome/</loc>
-    <lastmod>2019-08-12T11:23:41+02:00</lastmod>
+    <lastmod>2019-07-05T11:23:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   

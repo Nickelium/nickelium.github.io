@@ -19,6 +19,8 @@ a:link
 
     color: #526d7a;
 }
+
+
 body
 {
     font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
@@ -133,6 +135,7 @@ div.content
 {
     width: 200px;
     height: 200px;
+	border: 3px solid #bdc2c9;
 }
 .info
 {
@@ -263,15 +266,5 @@ pre > code {
     word-wrap: initial;
     word-break: initial;
 }
-img[src$='#floatright']
-{
-	margin-left: 0px;
-	margin-right: 10px;
-	margin-top: 0px;
-	margin-bottom:1px;
-	max-width: 40%;
-	width: auto\9*0.3; /* ie8 */
-	height: auto;
-	float: left;
-}
+
 

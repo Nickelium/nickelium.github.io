@@ -39,7 +39,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">RayTracer</h1>
+  <h1 class="title">IRadiance - RayTracer</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -53,10 +53,35 @@
 </section>
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
-    <p>This is a simple a realtime software renderer that emulates the OpenGL graphics pipeline.
-It utilizes few dependencies and is built mostly from scratch and written in C++98/C++11.
-The goal of this project is to build a renderer without the help of any Graphics API such as DirectX, OpenGL or Vulkan.
-Therefore it doesn&rsquo;t utilize any hardware acceleration provided by the GPU.</p>
+    <p>IRadiance Engine is an open-source software raytraced renderer written in C++11.
+This project is still <b>in development</b>, more features are about to come!</p>
+
+<p>Previously I&rsquo;ve written a raytracer based on the implementation of
+<a href="https://github.com/RayTracing/InOneWeekend">Ray Tracing in One Weekend, from Peter Shirley</a> and
+Paul Heckbert&rsquo;s business card raytracer.
+What I did back then was writing the output to a simple image format, .PPM, which requires a specialized software to view the image.
+I used Photoshop for the above because I already had it available on my computer.
+This is a simple approach but I found it very inconvenient to open Photoshop everytime,
+especially with the long loading times on my computer. Alternatively, I could download some other lightweight software that supports PPM.
+But I decided to utilize a graphics API, OpenGL in this case, to send the imagebuffer to the GPU for an immediate feedback.
+This approach enables us to get intermediate render results by sending the partial imagebuffer every 16ms.
+This might look like a small feature difference but seeing the the image being raytraced is really satisfying.</p>
+
+<p>Definetely worth the time and effort!</p>
+
+<p><br/>
+Features</p>
+
+<p><li>Simple Raytracer</li>
+<li>Visualize Render Progress</li>
+<li>Save Render to File</li></p>
+
+<p><br/></p>
+
+<p>If you&rsquo;re interested to know more, you can the find source code on this github <a href="https://github.com/Nickelium/IRadiance">[link]</a>.</p>
+
+<p><br/>
+<img src="/img/raytracer/raytracer_thumbnail.jpg" width="100%"></p>
 
   </div>
 </section>
@@ -76,6 +101,10 @@ Therefore it doesn&rsquo;t utilize any hardware acceleration provided by the GPU
 	  
 	 
 	  <a class="meta" href="">GRAPHICS</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">RAYTRACER</a>, 
      
 	  
 	 

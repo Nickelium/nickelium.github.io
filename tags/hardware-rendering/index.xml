@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware Rendering on Tri Tran</title>
+    <link>https://nickelium.github.io/tags/hardware-rendering/</link>
+    <description>Recent content in Hardware Rendering on Tri Tran</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 05 Aug 2019 21:16:07 +0200</lastBuildDate>
+    
+	<atom:link href="https://nickelium.github.io/tags/hardware-rendering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Radiance - Graphics Engine</title>
+      <link>https://nickelium.github.io/portfolio/graphics_engine/</link>
+      <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/portfolio/graphics_engine/</guid>
+      <description>Radiance Engine is a graphics engine built currently on top of OpenGL but with the intent to eventually support more APIs. This project is still in development, more features are about to come!
+Initially this project was mostly intended as a practical exercise to reinforce the things I&amp;rsquo;ve learned on LearnOpenGL. The goal has evolved into an API agnostic renderer with a clear software architecture. Next up is providing a simple but nice API to the user.</description>
+    </item>
+    
+  </channel>
+</rss>

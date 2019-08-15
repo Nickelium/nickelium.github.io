@@ -6,7 +6,7 @@
     <description>Recent content in Welcome on Tri Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Aug 2019 11:23:41 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 11:23:41 +0200</lastBuildDate>
     
 	<atom:link href="https://nickelium.github.io/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,13 +14,13 @@
     <item>
       <title>Hello</title>
       <link>https://nickelium.github.io/post/hello/</link>
-      <pubDate>Mon, 12 Aug 2019 11:23:41 +0200</pubDate>
+      <pubDate>Fri, 05 Jul 2019 11:23:41 +0200</pubDate>
       
       <guid>https://nickelium.github.io/post/hello/</guid>
       <description>Hello World ! Welcome to my personal website/portfolio page.
-This site serves as a place to show my personal projects and also to share some of my thoughts in the form of a blog post.
-Most of the content that are about to come will be presumably related to Programming (C/C++, &amp;hellip;) and Rendering (Rasterization, Raytracing, &amp;hellip;).
-This is the very first post on this website and is intended to verify it&amp;rsquo;s full functionality and correctness.</description>
+This site serves as a place to show my personal projects and also to share some of my thoughts in the form of an informal blog post.
+Most of the content that are about to come will be presumably related to Programming (C/C++, &amp;hellip;) and Rendering (Rasterization, Raytracing, &amp;hellip;) which I&amp;rsquo;m looking forward to share.
+This is the very first post on this website and is also intended to verify it&amp;rsquo;s full functionality and correctness.</description>
     </item>
     
   </channel>

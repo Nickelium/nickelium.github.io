@@ -12,33 +12,23 @@
     
     
     <item>
-      <title>RayTracer</title>
+      <title>IRadiance - RayTracer</title>
       <link>https://nickelium.github.io/portfolio/raytracer/</link>
       <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
       
       <guid>https://nickelium.github.io/portfolio/raytracer/</guid>
-      <description>This is a simple a realtime software renderer that emulates the OpenGL graphics pipeline. It utilizes few dependencies and is built mostly from scratch and written in C++98/C++11. The goal of this project is to build a renderer without the help of any Graphics API such as DirectX, OpenGL or Vulkan. Therefore it doesn&amp;rsquo;t utilize any hardware acceleration provided by the GPU.</description>
+      <description>IRadiance Engine is an open-source software raytraced renderer written in C++11. This project is still in development, more features are about to come!
+Previously I&amp;rsquo;ve written a raytracer based on the implementation of Ray Tracing in One Weekend, from Peter Shirley and Paul Heckbert&amp;rsquo;s business card raytracer. What I did back then was writing the output to a simple image format, .PPM, which requires a specialized software to view the image.</description>
     </item>
     
     <item>
-      <title>Hello</title>
-      <link>https://nickelium.github.io/post/hello/</link>
-      <pubDate>Mon, 12 Aug 2019 11:23:41 +0200</pubDate>
-      
-      <guid>https://nickelium.github.io/post/hello/</guid>
-      <description>Hello World ! Welcome to my personal website/portfolio page.
-This site serves as a place to show my personal projects and also to share some of my thoughts in the form of a blog post.
-Most of the content that are about to come will be presumably related to Programming (C/C++, &amp;hellip;) and Rendering (Rasterization, Raytracing, &amp;hellip;).
-This is the very first post on this website and is intended to verify it&amp;rsquo;s full functionality and correctness.</description>
-    </item>
-    
-    <item>
-      <title>Graphics Engine</title>
+      <title>Radiance - Graphics Engine</title>
       <link>https://nickelium.github.io/portfolio/graphics_engine/</link>
       <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
       
       <guid>https://nickelium.github.io/portfolio/graphics_engine/</guid>
-      <description>This is a simple a realtime software renderer that emulates the OpenGL graphics pipeline. It utilizes few dependencies and is built mostly from scratch and written in C++98/C++11. The goal of this project is to build a renderer without the help of any Graphics API such as DirectX, OpenGL or Vulkan. Therefore it doesn&amp;rsquo;t utilize any hardware acceleration provided by the GPU.</description>
+      <description>Radiance Engine is a graphics engine built currently on top of OpenGL but with the intent to eventually support more APIs. This project is still in development, more features are about to come!
+Initially this project was mostly intended as a practical exercise to reinforce the things I&amp;rsquo;ve learned on LearnOpenGL. The goal has evolved into an API agnostic renderer with a clear software architecture. Next up is providing a simple but nice API to the user.</description>
     </item>
     
     <item>
@@ -47,8 +37,8 @@ This is the very first post on this website and is intended to verify it&amp;rsq
       <pubDate>Tue, 30 Jul 2019 12:58:05 +0200</pubDate>
       
       <guid>https://nickelium.github.io/about/</guid>
-      <description>Hi! I&amp;rsquo;m Tri Tran an upcoming college graduate from Howest, Belgium right now living in Brussels, Belgium. Currently I&amp;rsquo;m looking for an internship for the period starting at February 2020 to June 2020.
-Previously I graduated from KULeuven, Belgium in June 2017 with a Bachelor of Science in Informatics. Near the period of graduation, my interest shifted from general Computer Science to Game Development in a general context. Therefore, I pursued my education at University College Howest, Belgium.</description>
+      <description>.image{ margin-left: 0px; margin-right: 10px; margin-top: 0px; margin-bottom:1px; max-width: 40%; width: auto\90.3; / ie8 */ height: auto; float: left; border: 3px solid #bdc2c9; }  Hi! I&amp;rsquo;m Tri Tran an upcoming college graduate from Howest, Belgium, right now living in Brussels, Belgium. Currently I&amp;rsquo;m looking for an internship for the period starting at February 2020 to June 2020.
+Previously I graduated from KULeuven, Belgium in June 2017 with a Bachelor of Science in Informatics.</description>
     </item>
     
     <item>
@@ -57,7 +47,20 @@ Previously I graduated from KULeuven, Belgium in June 2017 with a Bachelor of Sc
       <pubDate>Fri, 12 Jul 2019 12:32:46 +0200</pubDate>
       
       <guid>https://nickelium.github.io/portfolio/rasterizer/</guid>
-      <description>This is a simple a realtime software renderer that emulates the OpenGL graphics pipeline. It utilizes few dependencies and is built mostly from scratch and written in C++98/C++11. The goal of this project is to build a renderer without the help of any Graphics API such as DirectX, OpenGL or Vulkan. Therefore it doesn&amp;rsquo;t utilize any hardware acceleration provided by the GPU.</description>
+      <description>This is a simple realtime software renderer that emulates the typical graphics pipeline. Therefore it doesn&amp;rsquo;t use the help of any Graphics API such as D3D11/12, OpenGL or Vulkan. The software is built mostly from &amp;lsquo;scratch&amp;rsquo;, written in standard C++98/C++11. To be more precise, the renderer tries to mimick the OpenGL pipeline by providing it&amp;rsquo;s implementation instead of relying on the GPU.
+The goal of this project is to learn and uncover what&amp;rsquo;s behind the blackbox of a Graphics API that is often untold (to me at least) and taken as it is.</description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://nickelium.github.io/post/hello/</link>
+      <pubDate>Fri, 05 Jul 2019 11:23:41 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/post/hello/</guid>
+      <description>Hello World ! Welcome to my personal website/portfolio page.
+This site serves as a place to show my personal projects and also to share some of my thoughts in the form of an informal blog post.
+Most of the content that are about to come will be presumably related to Programming (C/C++, &amp;hellip;) and Rendering (Rasterization, Raytracing, &amp;hellip;) which I&amp;rsquo;m looking forward to share.
+This is the very first post on this website and is also intended to verify it&amp;rsquo;s full functionality and correctness.</description>
     </item>
     
   </channel>

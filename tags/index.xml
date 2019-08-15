@@ -21,6 +21,24 @@
     </item>
     
     <item>
+      <title>D3d11</title>
+      <link>https://nickelium.github.io/tags/d3d11/</link>
+      <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/d3d11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Engine</title>
+      <link>https://nickelium.github.io/tags/game-engine/</link>
+      <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/game-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Graphics</title>
       <link>https://nickelium.github.io/tags/graphics/</link>
       <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
@@ -30,11 +48,47 @@
     </item>
     
     <item>
+      <title>Graphics Api</title>
+      <link>https://nickelium.github.io/tags/graphics-api/</link>
+      <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/graphics-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware Rendering</title>
+      <link>https://nickelium.github.io/tags/hardware-rendering/</link>
+      <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/hardware-rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hello</title>
       <link>https://nickelium.github.io/tags/hello/</link>
-      <pubDate>Mon, 12 Aug 2019 11:23:41 +0200</pubDate>
+      <pubDate>Fri, 05 Jul 2019 11:23:41 +0200</pubDate>
       
       <guid>https://nickelium.github.io/tags/hello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opengl</title>
+      <link>https://nickelium.github.io/tags/opengl/</link>
+      <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/opengl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raytracer</title>
+      <link>https://nickelium.github.io/tags/raytracer/</link>
+      <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/tags/raytracer/</guid>
       <description></description>
     </item>
     
@@ -59,7 +113,7 @@
     <item>
       <title>Welcome</title>
       <link>https://nickelium.github.io/tags/welcome/</link>
-      <pubDate>Mon, 12 Aug 2019 11:23:41 +0200</pubDate>
+      <pubDate>Fri, 05 Jul 2019 11:23:41 +0200</pubDate>
       
       <guid>https://nickelium.github.io/tags/welcome/</guid>
       <description></description>
