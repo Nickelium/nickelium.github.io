@@ -13,20 +13,20 @@
     
     <item>
       <title>IRadiance - RayTracer</title>
-      <link>https://nickelium.github.io/portfolio/raytracer/</link>
+      <link>https://nickelium.github.io/projects/raytracer/</link>
       <pubDate>Mon, 12 Aug 2019 21:16:07 +0200</pubDate>
       
-      <guid>https://nickelium.github.io/portfolio/raytracer/</guid>
+      <guid>https://nickelium.github.io/projects/raytracer/</guid>
       <description>IRadiance Engine is an open-source software raytraced renderer written in C++11. This project is still in development, more features are about to come!
 Previously I&amp;rsquo;ve written a raytracer based on the implementation of Ray Tracing in One Weekend, from Peter Shirley and Paul Heckbert&amp;rsquo;s business card raytracer. What I did back then was writing the output to a simple image format, .PPM, which requires a specialized software to view the image.</description>
     </item>
     
     <item>
       <title>Rasterizer</title>
-      <link>https://nickelium.github.io/portfolio/rasterizer/</link>
+      <link>https://nickelium.github.io/projects/rasterizer/</link>
       <pubDate>Fri, 12 Jul 2019 12:32:46 +0200</pubDate>
       
-      <guid>https://nickelium.github.io/portfolio/rasterizer/</guid>
+      <guid>https://nickelium.github.io/projects/rasterizer/</guid>
       <description>This is a simple realtime software renderer that emulates the typical graphics pipeline. Therefore, it doesn&amp;rsquo;t use the help of any Graphics API such as D3D11/12, OpenGL or Vulkan. The software is built mostly from &amp;lsquo;scratch&amp;rsquo;, written in standard C++98/C++11. To be more precise, the renderer tries to mimic the OpenGL pipeline by providing its implementation instead of relying on the GPU.
 The goal of this project is to learn and uncover what&amp;rsquo;s behind the blackbox of a Graphics API that is often untold (to me at least) and taken as it is.</description>
     </item>

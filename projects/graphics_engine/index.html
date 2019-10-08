@@ -55,7 +55,7 @@ a:hover
 </style>
 
 <header class="row text-left title">
-  <h1 class="title">About <div class="right"><section id="social-pane" class="row text-center social">
+  <h1 class="title">Radiance - Graphics Engine <div class="right"><section id="social-pane" class="row text-center social">
   
   <a href="https://twitter.com/nickelium" aria-label="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
   
@@ -109,7 +109,7 @@ a:hover
   
   <div class="col-md-12">
     <h6 class="text-left meta">
-        PUBLISHED ON JUL 30, 2019 
+        PUBLISHED ON AUG 5, 2019 
       
     </h6>
   </div>
@@ -119,58 +119,72 @@ a:hover
 
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
-    <style>
-.image{
-    margin-left: 0px;
-    margin-right: 10px;
-    margin-top: 0px;
-    margin-bottom:1px;
-    max-width: 40%;
-    width: auto\9*0.3; /* ie8 */
-    height: auto;
-    float: left;
-    border: 3px solid #bdc2c9;
-}
-.line 
+    <p>Radiance Engine is a graphics engine built currently on top of OpenGL but with the intent to eventually support more APIs.
+This project is still <b>in development</b>, more features are about to come!</p>
+
+<p>Initially this project was mostly intended as a practical exercise to reinforce the things I&rsquo;ve learned on <a href="https://learnopengl.com/">LearnOpenGL</a>.
+The goal has evolved into an API agnostic renderer with a clear software architecture.
+Next up is providing a simple but nice API to the user. An API that allows the user to build their graphics application quickly,
+while the engine handles all the other low-level necessities.</p>
+
+<style>
+ul
 {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
 
+#container 
+{
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    width: 100%;
+}
+
+.item, .dummy {
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+}
+#container:after
+{
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    width: 100%;
+    display: inline;
+}
 </style>
 
-<!-- <div class="line"></div> -->
+<p><br/>
+<ul style="list-style-type:none;">
+<li>Graphics Features</li>
+<li>General Engine Features</li>
+</ul></p>
 
-<p>If you&rsquo;re interested, you can find my resume <a href="files/resume.pdf"><b>[here]</b></a>.
-<div class="line"></div></p>
+<div id="container">
+    <div class="item"><li>Mesh Loader</li></div>
+    <div class="item"><li>Material System</li></div>
+    <div class="item"><li>Support Custom Shaders</li></div>
+    <div class="item"><li>Support Shaders Hot Reloading</li></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="item"><li>Multiple Loggers</li></div>
+    <div class="item"><li>Component System</li></div>
+    <div class="item"><li>Event System</li></div>
+    <div class="item"><li>Window Handling</li></div>
+    <div class="item"><li>User Interface Layer</li></div>
 
-<p><img class="image" src="/img/face.png"></p>
+<p></div></p>
 
-<p>Hi! I&rsquo;m <i>Tri Tran</i> an upcoming college graduate from <i>Howest, Belgium</i>, right now living in <i>Brussels, Belgium</i>.
-Currently I&rsquo;m looking for an <b>internship</b> for the period starting at February 2020 to June 2020.</p>
+<p>If you&rsquo;re interested to know more, you can the find source code on this github <a href="https://github.com/Nickelium/Radiance">[link]</a>.</p>
 
-<p>Previously I studied and graduated from <i>KULeuven, Belgium</i> in June 2017 with a Bachelor of Science in Informatics. Near the graduation period,
-my interest shifted from general Computer Science to Game development. Instead of continuing with a master in Computer Science,
-I decided to start to discover the world of Game development, more precisely Graphics Programming.
-That&rsquo;s how I landed at the University College Howest, Belgium.</p>
-
-<p>During my studies I have deepened my knowledge in multiple fields such as abstract Mathematics, Engineering, Software development,
- APIs/Framework, Game Engines.
-Besides these technical fields, I have also worked on Digital Arts and Design.</p>
-
-<p>My main interest and current focus lie in Game Programming but more specifically Engine- and Rendering Programming.
-On a day to day basis I try to utilize C/C++ in a more effective way (no pun intended) and keeping myself up-to-date to the new Rendering techniques.
-Those are not restricted to some specific Graphics API but also applies for example to Offline Rendering,
-which you can see more on this <i><a href="/portfolio"> page</a></i>.</p>
-
-<p>Whenever I&rsquo;m not working on some projects or programming, chances are than you&rsquo;ll find me in a swimming pool,
-which I have been practicing over a decade already!
-Still haven&rsquo;t found me? Then you might want to check the gym.
-Once in a while I boot up my console to play some fighting game, which I&rsquo;m still terrible at it.</p>
+<p><br/>
+<img src="/img/graphics_engine/graphicsengine_thumb.png" width="100%"></p>
 
   </div>
 </section>
@@ -178,6 +192,45 @@ Once in a while I boot up my console to play some fighting game, which I&rsquo;m
   
   <div class="col-md-12">
     <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+	 
+	  <a class="meta" href="">C/C&#43;&#43;</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">D3D11</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">GAME ENGINE</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">GRAPHICS</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">GRAPHICS API</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">HARDWARE-RENDERING</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">OPENGL</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">RENDERING</a>
+     
+	  
+      
       
     </h6>
   </div>
@@ -200,7 +253,13 @@ a:hover
 <section id="menu-pane" class="row menu text-center">
   
   
+  <span><a class="menu-item" href="https://nickelium.github.io/projects/rasterizer/">&lt; prev | </a></span>
   
+  
+  <span><a class="menu-item" href="/projects">projects</a></span>
+  
+  
+  <span><a class="menu-item" href="https://nickelium.github.io/projects/raytracer/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://nickelium.github.io/">home</a></h4>

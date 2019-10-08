@@ -16,7 +16,6 @@
 
 <meta name="generator" content="Hugo 0.56.3" />
 
-<link rel="alternate" type="application/rss&#43;xml" href="https://nickelium.github.io/index.xml">
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
@@ -39,23 +38,24 @@
 <div class="container">
 
 
-<header class="row text-center header">
-   <img src="/img/user.png" alt="Author Image" class="img-circle text-center headshot"> 
-  <h1 class="author">Tri Tran</h1>
-</header>
+<style>
+a:hover 
+{
+  color: #cc1010;
+}
+.right
+{
+  float: right;
+}
+.left
+{
+  float: right;
+}
 
+</style>
 
-<section id="info-pane" class="row text-center info">
-  
-  <h3 class="intro">Game Programmer <br/> Graphics Programmer | Engine Programmer</h3>
-  
-  
-  <h4 class="description">Looking for an end-of-studies <b>Internship</b></h4>
-  
-</section>
-
-
-<section id="social-pane" class="row text-center social">
+<header class="row text-left title">
+  <h1 class="title">IRadiance - RayTracer <div class="right"><section id="social-pane" class="row text-center social">
   
   <a href="https://twitter.com/nickelium" aria-label="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
   
@@ -102,6 +102,103 @@
   
 </section>
 
+</div></h1>
+  
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON AUG 12, 2019 
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    <p>IRadiance Engine is an open-source software raytraced renderer written in C++11.
+This project is still <b>in development</b>, more features are about to come!</p>
+
+<p>Previously I&rsquo;ve written a raytracer based on the implementation of
+<a href="https://github.com/RayTracing/InOneWeekend">Ray Tracing in One Weekend, from Peter Shirley</a> and
+Paul Heckbert&rsquo;s business card raytracer.
+What I did back then was writing the output to a simple image format, .PPM, which requires a specialized software to view the image.
+I used Photoshop for the above because I already had it available on my computer.
+This is a simple approach, but I found it very inconvenient to open Photoshop everytime,
+especially with the long loading times on my computer. Alternatively, I could download some other lightweight software that supports PPM.
+But I decided to utilize a graphics API, OpenGL in this case, to send the imagebuffer to the GPU for an immediate feedback.
+This approach enables us to get intermediate render results by sending the partial imagebuffer every 16ms.
+This might look like a small feature difference but seeing the image being raytraced is really satisfying.</p>
+
+<p>Definitely worth the time and effort!</p>
+
+<p><br/>
+Features</p>
+
+<p><li>Simple Raytracer</li>
+<li>Soft Shadows</li>
+<li>Area Light</li>
+<li>Visualize Render Progress</li>
+<li>Save Render to File</li></p>
+
+<p><br/></p>
+
+<p>If you&rsquo;re interested to know more, you can the find source code on this github <a href="https://github.com/Nickelium/IRadiance">[link]</a>.</p>
+
+<p><br/>
+<img src="/img/raytracer/2.jpg" width="100%"></p>
+
+<p><img src="/img/raytracer/3.jpg" width="100%"></p>
+
+<p><img src="/img/raytracer/4.jpg" width="100%"></p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+	 
+	  <a class="meta" href="">C/C&#43;&#43;</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">GRAPHICS</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">RAYTRACER</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">RENDERING</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">SOFTWARE-RENDERING</a>
+     
+	  
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
 
 
 <style>
@@ -110,13 +207,17 @@ a:hover
   color: #cc1010;
 }
 </style>
-
-<section id="main-menu-pane" class="row text-center main-menu">
+<section id="menu-pane" class="row menu text-center">
   
-  <h4><a class="menu-item" href="about/">About</a></h4>
   
-  <h4><a class="menu-item" href="projects/">Projects</a></h4>
+  <span><a class="menu-item" href="https://nickelium.github.io/projects/graphics_engine/">&lt; prev | </a></span>
   
+  
+  <span><a class="menu-item" href="/projects">projects</a></span>
+  
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://nickelium.github.io/">home</a></h4>
 </section>
 
 
@@ -154,4 +255,5 @@ if (!doNotTrack) {
 <script src="js/main.js"></script>
 </body>
 </html>
+
 

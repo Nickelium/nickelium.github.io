@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>c/c&#43;&#43; on Tri Tran</title>
-    <link>https://nickelium.github.io/tags/c/c&#43;&#43;/</link>
-    <description>Recent content in c/c&#43;&#43; on Tri Tran</description>
+    <title>Projects on Tri Tran</title>
+    <link>https://nickelium.github.io/projects/</link>
+    <description>Recent content in Projects on Tri Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 12 Aug 2019 21:16:07 +0200</lastBuildDate>
     
-	<atom:link href="https://nickelium.github.io/tags/c/c++/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nickelium.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -39,6 +39,16 @@ Initially this project was mostly intended as a practical exercise to reinforce 
       <guid>https://nickelium.github.io/projects/rasterizer/</guid>
       <description>This is a simple realtime software renderer that emulates the typical graphics pipeline. Therefore, it doesn&amp;rsquo;t use the help of any Graphics API such as D3D11/12, OpenGL or Vulkan. The software is built mostly from &amp;lsquo;scratch&amp;rsquo;, written in standard C++98/C++11. To be more precise, the renderer tries to mimic the OpenGL pipeline by providing its implementation instead of relying on the GPU.
 The goal of this project is to learn and uncover what&amp;rsquo;s behind the blackbox of a Graphics API that is often untold (to me at least) and taken as it is.</description>
+    </item>
+    
+    <item>
+      <title>DoomDashers - Game</title>
+      <link>https://nickelium.github.io/projects/doomdashers/</link>
+      <pubDate>Tue, 02 Jul 2019 21:16:07 +0200</pubDate>
+      
+      <guid>https://nickelium.github.io/projects/doomdashers/</guid>
+      <description>DoomDashers is a fast-paced, bloody 2D platformer where two to four players battle each other to survive. Next to dashing and charging on your foes, the players need to dodge the disruptive surroundings filled with unexpected traps and bombs. Players choose between the Viking/Knight/Samurai/Gladiator and fight the others and/or collaborate to be the last one standing.
+This project was made with Unity in a timespan of three months, from March 2019 to May 2019.</description>
     </item>
     
   </channel>

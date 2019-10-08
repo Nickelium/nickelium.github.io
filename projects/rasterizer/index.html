@@ -55,7 +55,7 @@ a:hover
 </style>
 
 <header class="row text-left title">
-  <h1 class="title">About <div class="right"><section id="social-pane" class="row text-center social">
+  <h1 class="title">Rasterizer <div class="right"><section id="social-pane" class="row text-center social">
   
   <a href="https://twitter.com/nickelium" aria-label="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
   
@@ -109,7 +109,7 @@ a:hover
   
   <div class="col-md-12">
     <h6 class="text-left meta">
-        PUBLISHED ON JUL 30, 2019 
+        PUBLISHED ON JUL 12, 2019 
       
     </h6>
   </div>
@@ -119,58 +119,73 @@ a:hover
 
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
-    <style>
-.image{
-    margin-left: 0px;
-    margin-right: 10px;
-    margin-top: 0px;
-    margin-bottom:1px;
-    max-width: 40%;
-    width: auto\9*0.3; /* ie8 */
-    height: auto;
-    float: left;
-    border: 3px solid #bdc2c9;
-}
-.line 
+    <div style="position:relative;padding-top:56.25%;">
+<iframe width="100%"  frameborder="0" allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+src="https://www.youtube.com/embed/7sPPdtgjI90">
+</iframe>   
+</div>
+
+<p><br/>
+This is a simple realtime software renderer that emulates the typical graphics pipeline.
+Therefore, it doesn&rsquo;t use the help of any Graphics API such as D3D11/12, OpenGL or Vulkan.
+The software is built mostly from &lsquo;scratch&rsquo;, written in standard C++98/C++11.
+To be more precise, the renderer tries to mimic the OpenGL pipeline by providing its implementation instead of relying on the GPU.</p>
+
+<p>The goal of this project is to learn and uncover what&rsquo;s behind the blackbox of a Graphics API that is often untold (to me at least)
+and taken as it is. Also to learn how one might write a renderer back in the day. Although, raycasting or so was probably more appropriate than this renderer.
+Initially, I planned to implement only a few trivial graphics features, but it somehow grew more than expected.
+<style>
+ul
 {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
+</style></p>
 
-</style>
+<p><br/>
+<ul style="list-style-type:none;">
+<li>Features:</li>
+<li>Back End Features:</li>
+</ul></p>
 
-<!-- <div class="line"></div> -->
+<ul>
+<li>Wireframe Rendering</li>
+<li>Flat Shading</li>
+<li>Gouraud Shading</li>
+<li>Phong Shading</li>
+<li>Diffuse Texture Mapping</li>
+<li>Scene Switching</li>
+<li>Rendermode Switching</li>
+<li>OBJ file Parser</li>
+<li>JSON file Scene Description</li>
 
-<p>If you&rsquo;re interested, you can find my resume <a href="files/resume.pdf"><b>[here]</b></a>.
-<div class="line"></div></p>
+<li>Backface Culling</li>
+<li>Depth Buffering</li>
+<li>Perspective Correct Interpolation</li>
+<li>Extendable Vertex and Fragment Shaders</li>
+<li>Linear Algebra Library</li>
+<li>Rasterizer</li>
+<li>Line Rendering</li>
+</ul>
 
-<p><img class="image" src="/img/face.png"></p>
+<p><br/>
+I&rsquo;m actually glad I finish this project because it allowed me to gain a deeper and richer understanding of hardware rendering
+and as result made me appreciate it more.</p>
 
-<p>Hi! I&rsquo;m <i>Tri Tran</i> an upcoming college graduate from <i>Howest, Belgium</i>, right now living in <i>Brussels, Belgium</i>.
-Currently I&rsquo;m looking for an <b>internship</b> for the period starting at February 2020 to June 2020.</p>
+<p>If you&rsquo;re interested to know more, you can the find source code on this github <a href="https://github.com/Nickelium/Rasterizer">[link]</a>.</p>
 
-<p>Previously I studied and graduated from <i>KULeuven, Belgium</i> in June 2017 with a Bachelor of Science in Informatics. Near the graduation period,
-my interest shifted from general Computer Science to Game development. Instead of continuing with a master in Computer Science,
-I decided to start to discover the world of Game development, more precisely Graphics Programming.
-That&rsquo;s how I landed at the University College Howest, Belgium.</p>
+<p><br/>
+Render Samples</p>
 
-<p>During my studies I have deepened my knowledge in multiple fields such as abstract Mathematics, Engineering, Software development,
- APIs/Framework, Game Engines.
-Besides these technical fields, I have also worked on Digital Arts and Design.</p>
+<p><img src="/img/rasterizer/16.png" width="100%"></p>
 
-<p>My main interest and current focus lie in Game Programming but more specifically Engine- and Rendering Programming.
-On a day to day basis I try to utilize C/C++ in a more effective way (no pun intended) and keeping myself up-to-date to the new Rendering techniques.
-Those are not restricted to some specific Graphics API but also applies for example to Offline Rendering,
-which you can see more on this <i><a href="/portfolio"> page</a></i>.</p>
+<p><img src="/img/rasterizer/28.png" width="100%"></p>
 
-<p>Whenever I&rsquo;m not working on some projects or programming, chances are than you&rsquo;ll find me in a swimming pool,
-which I have been practicing over a decade already!
-Still haven&rsquo;t found me? Then you might want to check the gym.
-Once in a while I boot up my console to play some fighting game, which I&rsquo;m still terrible at it.</p>
+<p><img src="/img/rasterizer/23.png" width="100%"></p>
+
+<p><img src="/img/rasterizer/21.png" width="100%"></p>
 
   </div>
 </section>
@@ -178,6 +193,29 @@ Once in a while I boot up my console to play some fighting game, which I&rsquo;m
   
   <div class="col-md-12">
     <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+	 
+	  <a class="meta" href="">C/C&#43;&#43;</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">GRAPHICS</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">RENDERING</a>, 
+     
+	  
+	 
+	  <a class="meta" href="">SOFTWARE-RENDERING</a>
+     
+	  
+      
       
     </h6>
   </div>
@@ -200,7 +238,13 @@ a:hover
 <section id="menu-pane" class="row menu text-center">
   
   
+  <span><a class="menu-item" href="https://nickelium.github.io/projects/doomdashers/">&lt; prev | </a></span>
   
+  
+  <span><a class="menu-item" href="/projects">projects</a></span>
+  
+  
+  <span><a class="menu-item" href="https://nickelium.github.io/projects/graphics_engine/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://nickelium.github.io/">home</a></h4>

@@ -13,10 +13,10 @@
     
     <item>
       <title>Radiance - Graphics Engine</title>
-      <link>https://nickelium.github.io/portfolio/graphics_engine/</link>
+      <link>https://nickelium.github.io/projects/graphics_engine/</link>
       <pubDate>Mon, 05 Aug 2019 21:16:07 +0200</pubDate>
       
-      <guid>https://nickelium.github.io/portfolio/graphics_engine/</guid>
+      <guid>https://nickelium.github.io/projects/graphics_engine/</guid>
       <description>Radiance Engine is a graphics engine built currently on top of OpenGL but with the intent to eventually support more APIs. This project is still in development, more features are about to come!
 Initially this project was mostly intended as a practical exercise to reinforce the things I&amp;rsquo;ve learned on LearnOpenGL. The goal has evolved into an API agnostic renderer with a clear software architecture. Next up is providing a simple but nice API to the user.</description>
     </item>
